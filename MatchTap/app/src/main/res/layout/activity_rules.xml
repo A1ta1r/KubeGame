@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rules"
+    android:background="#795548"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Rules"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Жили-были шестнадцать блоков с номерами от одного до восьми, и искали они каждый себе пару, а когда находили несоответсвия, менялись номерами и скрывались... \nЦель игры: за минимальное количество ходов найти каждой кнопке пару."
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.96" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:height="100dp"
+        android:textSize="35sp"
+        android:textColor="#3E2723"
+        android:onClick="ToGame"
+        />
+</LinearLayout>

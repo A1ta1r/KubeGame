@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rules"
+    android:background="#795548"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="400dp"
+        android:text="You WON!!!"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:padding="30dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textSize="20sp"
+        android:text="HOORAAAAAY!"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textSize="20sp"
+        android:id="@+id/txtWinSteps"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.9">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To menu"
+            android:width="150dp"
+            android:height="100dp"
+            android:textSize="30sp"
+            android:textColor="#3E2723"
+            android:onClick="ToMenu"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Try again"
+            android:width="150dp"
+            android:height="100dp"
+            android:textSize="30sp"
+            android:textColor="#3E2723"
+            android:onClick="ToGame"
+            />
+    </LinearLayout>
+</LinearLayout>
